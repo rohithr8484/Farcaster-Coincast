@@ -63,24 +63,7 @@ const MarketOverview: React.FC = () => {
   return (
     <div className="space-y-6">
       {/* Global Market Stats */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-        <div className="bg-white/10 backdrop-blur-lg rounded-xl p-4 border border-white/20">
-          <p className="text-blue-200 text-sm mb-1">Market Cap</p>
-          <p className="text-2xl font-bold text-white">${globalStats.totalMarketCap}</p>
-        </div>
-        <div className="bg-white/10 backdrop-blur-lg rounded-xl p-4 border border-white/20">
-          <p className="text-blue-200 text-sm mb-1">24h Volume</p>
-          <p className="text-2xl font-bold text-white">${globalStats.totalVolume}</p>
-        </div>
-        <div className="bg-white/10 backdrop-blur-lg rounded-xl p-4 border border-white/20">
-          <p className="text-blue-200 text-sm mb-1">BTC Dominance</p>
-          <p className="text-2xl font-bold text-white">{globalStats.btcDominance}%</p>
-        </div>
-        <div className="bg-white/10 backdrop-blur-lg rounded-xl p-4 border border-white/20">
-          <p className="text-blue-200 text-sm mb-1">Fear & Greed</p>
-          <p className="text-2xl font-bold text-green-400">{globalStats.fearGreedIndex}</p>
-        </div>
-      </div>
+
 
       {/* Market Overview */}
       <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20">
