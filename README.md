@@ -1,6 +1,6 @@
-# 🪙 CoinCast Farcaster Mini App
+# 🪙 CoinCast
 
-A mini app for Farcaster for coins, allowing users to view and share their crypto portfolios seamlessly within the social feed.
+A Mini app for Farcaster for coins, allowing users to view and share their crypto portfolios seamlessly within the social feed.
 
 ---
 
