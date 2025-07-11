@@ -48,6 +48,17 @@ CoinCast uses the **Farcaster Frames API** and a backend to simulate a real-time
 - **TailwindCSS** for styling
 - **CoinCast Mock API** (can be swapped with live backend)
 
+## 💹 Sponsor tech
+| Sponsor Technology         | Purpose within CoinCast                       | Alignment with Farcaster Mini Apps Platform  |
+| -------------------------- | --------------------------------------------- | -------------------------------------------- |
+| Farcaster Frame SDKs       | Core interaction/rendering within social feed | ✅ Essential Mini App Infrastructure          |
+| Auth Kit + Wagmi Connector | Ethereum wallet auth and SIWE                 | ✅ Identity Layer for Social + Wallet Connect |
+| Mini App Solana            | Solana wallet and SPL token support           | ✅ Multi-chain Readiness                      |
+| React Query + Radix        | Efficient state & UI management               | ✅ Lightweight UI within Frame limits         |
+| TailwindCSS + Lucide Icons | Beautiful and responsive visual styling       | ✅ Enhanced UX inside Frames                  |
+| Vite + TypeScript          | Modern, fast, and typed dev environment       | ✅ Compliant with Farcaster dev expectations  |
+
+
 ---
 
 ## 🧪 Demo
