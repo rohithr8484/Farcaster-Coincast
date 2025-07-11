@@ -67,6 +67,5 @@ To see the mini app in action:
 
 ```bash
 git clone https://github.com/rohithr8484/Farcaster-Coincast.git
-
 npm install
 npm run dev
