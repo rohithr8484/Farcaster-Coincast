@@ -43,38 +43,7 @@ CoinCast uses the **Farcaster Frames API** and a backend to simulate a real-time
 ## 💹 Folder Structure
 
 coincast-farcaster-mini-app/
-├── src/
-│   ├── components/                  # Reusable UI components
-│   │   ├── AddCoinsModal.tsx            # Modal to add new coins to portfolio
-│   │   ├── AuthProvider.tsx             # Handles authentication context
-│   │   ├── CoinDetailModal.tsx          # Modal showing detailed coin info
-│   │   ├── CoinHolding.tsx              # Renders individual holdings
-│   │   ├── Header.tsx                   # App header/navigation
-│   │   ├── LoadingScreen.tsx           # Full-screen loading indicator
-│   │   ├── LoginScreen.tsx             # Wallet login/sign-in UI
-│   │   ├── MainApp.tsx                 # Root app layout and structure
-│   │   ├── MarketOverview.tsx          # Token market data display
-│   │   ├── Portfolio.tsx               # Main portfolio display component
-│   │   ├── PortfolioStats.tsx          # 24h stats & change indicators
-│   │   ├── SocialFeed.tsx              # Farcaster feed and interactions
-│   │   ├── TrendingCoins.tsx           # Highlights trending assets
-│   │   └── WalletConnection.tsx        # Wallet connect / SIWE logic
-│   ├── App.tsx                      # Top-level component setup
-│   ├── index.css                    # Tailwind + global styles
-│   ├── main.tsx                     # React/Vite entry point
-│   └── vite-env.d.ts                # Type definitions for Vite
-├── .gitignore
-├── README.md                       # Project documentation
-├── eslint.config.js               # ESLint configuration
-├── index.html                     # HTML shell for Vite
-├── package.json                   # Project metadata & dependencies
-├── package-lock.json
-├── postcss.config.js
-├── tailwind.config.js             # TailwindCSS setup
-├── tsconfig.json                  # TypeScript config
-├── tsconfig.app.json
-├── tsconfig.node.json
-└── vite.config.ts                 # Vite build & dev server config
+<img width="686" height="772" alt="image" src="https://github.com/user-attachments/assets/b307d49d-8e02-491b-88cc-1ab00fe72ab2" />
 
 ---
 
