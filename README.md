@@ -4,13 +4,13 @@ CoinCast is a lightweight yet powerful mini app built for Farcaster that lets us
 
 With CoinCast, users can:
 
-View their crypto portfolio in a sleek card format.
+- View their crypto portfolio in a sleek card format.
 
-Track 24h price changes with clear indicators.
+- Track 24h price changes with clear indicators.
 
-Instantly share their performance with others via Farcaster.
+- Instantly share their performance with others via Farcaster.
 
-Engage with casts through likes, comments, and comparisons.
+- Engage with casts through likes, comments, and comparisons.
 
 ---
 
@@ -42,7 +42,6 @@ CoinCast uses the **Farcaster Frames API** and a backend to simulate a real-time
 ---
 ## 💹 Folder Structure
 
-coincast-farcaster-mini-app/
 <img width="686" height="772" alt="image" src="https://github.com/user-attachments/assets/b307d49d-8e02-491b-88cc-1ab00fe72ab2" />
 
 ---
