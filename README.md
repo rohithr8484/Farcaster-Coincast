@@ -1,7 +1,18 @@
 # 🪙 CoinCast
 
-A Mini app for Farcaster for coins, allowing users to view and share their crypto portfolios seamlessly within the social feed.
+CoinCast is a lightweight yet powerful mini app built for Farcaster that lets users view and share their crypto portfolio snapshots seamlessly within the social feed. Designed with simplicity and engagement in mind, CoinCast turns your portfolio data into beautiful, shareable content — making it easy to compare and discuss performance with other users on Farcaster.
 
+With CoinCast, users can:
+
+View their crypto portfolio in a sleek card format.
+
+Track 24h price changes with clear indicators.
+
+Instantly share their performance with others via Farcaster.
+
+Engage with casts through likes, comments, and comparisons.
+
+Whether you're a casual investor or a seasoned trader, CoinCast brings your portfolio into the conversation.
 ---
 
 ## 🛠 Features
@@ -22,7 +33,7 @@ Enable other users to react, comment, or compare their portfolios from the same 
 
 ## 🚀 How It Works
 
-This app uses the **Farcaster Frames API** to:
+CoinCast uses the **Farcaster Frames API** and a backend to simulate a real-time portfolio experience.
 
 - Authenticate the user via connected wallet or Sign-In with Ethereum.
 - Fetch and display the user’s CoinCast portfolio summary (mock API included).
