@@ -50,7 +50,7 @@ CoinCast uses the **Farcaster Frames API** and a backend to simulate a real-time
 
 ---
 
-## 🧪 Demo (Optional)
+## 🧪 Demo
 
 To see the mini app in action:
 
