@@ -12,6 +12,9 @@ With CoinCast, users can:
 
 - Engage with casts through likes, comments, and comparisons.
 
+<img width="176" height="351" alt="image" src="https://github.com/user-attachments/assets/c8c5db55-6d55-464b-b24b-d1c9cf05fba9" />
+
+
 ---
 
 ## 🛠 Features
