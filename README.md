@@ -12,7 +12,6 @@ Instantly share their performance with others via Farcaster.
 
 Engage with casts through likes, comments, and comparisons.
 
-Whether you're a casual investor or a seasoned trader, CoinCast brings your portfolio into the conversation.
 ---
 
 ## 🛠 Features
