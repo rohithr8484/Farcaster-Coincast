@@ -41,40 +41,40 @@ CoinCast uses the **Farcaster Frames API** and a backend to simulate a real-time
 
 ---
 ## 💹 Folder Structure
+
 coincast-farcaster-mini-app/
 ├── src/
-│   ├── components/                  # Reusable UI & logic components
-│   │   ├── AddCoinsModal.tsx
-│   │   ├── AuthProvider.tsx
-│   │   ├── CoinDetailModal.tsx
-│   │   ├── CoinHolding.tsx
-│   │   ├── Header.tsx
-│   │   ├── LoadingScreen.tsx
-│   │   ├── LoginScreen.tsx
-│   │   ├── MainApp.tsx
-│   │   ├── MarketOverview.tsx
-│   │   ├── Portfolio.tsx
-│   │   ├── PortfolioStats.tsx
-│   │   ├── SocialFeed.tsx
-│   │   ├── TrendingCoins.tsx
-│   │   └── WalletConnection.tsx
-│   ├── App.tsx                      # App root / composition logic
-│   ├── index.css                    # Global styles (Tailwind)
-│   ├── main.tsx                     # React/Vite app entry point
-│   └── vite-env.d.ts                # Vite type definitions
+│   ├── components/                  # Reusable UI components
+│   │   ├── AddCoinsModal.tsx            # Modal to add new coins to portfolio
+│   │   ├── AuthProvider.tsx             # Handles authentication context
+│   │   ├── CoinDetailModal.tsx          # Modal showing detailed coin info
+│   │   ├── CoinHolding.tsx              # Renders individual holdings
+│   │   ├── Header.tsx                   # App header/navigation
+│   │   ├── LoadingScreen.tsx           # Full-screen loading indicator
+│   │   ├── LoginScreen.tsx             # Wallet login/sign-in UI
+│   │   ├── MainApp.tsx                 # Root app layout and structure
+│   │   ├── MarketOverview.tsx          # Token market data display
+│   │   ├── Portfolio.tsx               # Main portfolio display component
+│   │   ├── PortfolioStats.tsx          # 24h stats & change indicators
+│   │   ├── SocialFeed.tsx              # Farcaster feed and interactions
+│   │   ├── TrendingCoins.tsx           # Highlights trending assets
+│   │   └── WalletConnection.tsx        # Wallet connect / SIWE logic
+│   ├── App.tsx                      # Top-level component setup
+│   ├── index.css                    # Tailwind + global styles
+│   ├── main.tsx                     # React/Vite entry point
+│   └── vite-env.d.ts                # Type definitions for Vite
 ├── .gitignore
-├── README.md                        # Project documentation
-├── eslint.config.js                # ESLint configuration
-├── index.html                       # App shell (for Vite)
+├── README.md                       # Project documentation
+├── eslint.config.js               # ESLint configuration
+├── index.html                     # HTML shell for Vite
+├── package.json                   # Project metadata & dependencies
 ├── package-lock.json
-├── package.json                     # Dependencies & scripts
 ├── postcss.config.js
-├── tailwind.config.js              # TailwindCSS configuration
+├── tailwind.config.js             # TailwindCSS setup
+├── tsconfig.json                  # TypeScript config
 ├── tsconfig.app.json
-├── tsconfig.json
 ├── tsconfig.node.json
-└── vite.config.ts                  # Vite build config
-
+└── vite.config.ts                 # Vite build & dev server config
 
 ---
 
