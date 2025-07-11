@@ -40,6 +40,43 @@ CoinCast uses the **Farcaster Frames API** and a backend to simulate a real-time
 - Render a clean, stylized preview image as seen in the CoinCast UI.
 
 ---
+## 💹 Folder Structure
+coincast-farcaster-mini-app/
+├── src/
+│   ├── components/                  # Reusable UI & logic components
+│   │   ├── AddCoinsModal.tsx
+│   │   ├── AuthProvider.tsx
+│   │   ├── CoinDetailModal.tsx
+│   │   ├── CoinHolding.tsx
+│   │   ├── Header.tsx
+│   │   ├── LoadingScreen.tsx
+│   │   ├── LoginScreen.tsx
+│   │   ├── MainApp.tsx
+│   │   ├── MarketOverview.tsx
+│   │   ├── Portfolio.tsx
+│   │   ├── PortfolioStats.tsx
+│   │   ├── SocialFeed.tsx
+│   │   ├── TrendingCoins.tsx
+│   │   └── WalletConnection.tsx
+│   ├── App.tsx                      # App root / composition logic
+│   ├── index.css                    # Global styles (Tailwind)
+│   ├── main.tsx                     # React/Vite app entry point
+│   └── vite-env.d.ts                # Vite type definitions
+├── .gitignore
+├── README.md                        # Project documentation
+├── eslint.config.js                # ESLint configuration
+├── index.html                       # App shell (for Vite)
+├── package-lock.json
+├── package.json                     # Dependencies & scripts
+├── postcss.config.js
+├── tailwind.config.js              # TailwindCSS configuration
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts                  # Vite build config
+
+
+---
 
 ## 🧩 Tech Stack
 
@@ -47,6 +84,8 @@ CoinCast uses the **Farcaster Frames API** and a backend to simulate a real-time
 - **Next.js** / **React**
 - **TailwindCSS** for styling
 - **CoinCast Mock API** (can be swapped with live backend)
+
+---
 
 ## 💹 Sponsor tech
 | Sponsor Technology         | Purpose within CoinCast                       | Alignment with Farcaster Mini Apps Platform  |
