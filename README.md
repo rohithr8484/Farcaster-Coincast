@@ -35,12 +35,21 @@ Enable other users to react, comment, or compare their portfolios from the same 
 
 ## 🚀 How It Works
 
-CoinCast uses the **Farcaster Frames API** and a backend to simulate a real-time portfolio experience.
+CoinCast is a Farcaster Mini App that simulates a personalized crypto portfolio experience directly within the Farcaster feed using Frames.
 
-- Authenticate the user via connected wallet or Sign-In with Ethereum.
-- Fetch and display the user’s CoinCast portfolio summary (mock API included).
-- Provide a call-to-action for sharing on Farcaster ("Share Portfolio").
-- Render a clean, stylized preview image as seen in the CoinCast UI.
+1. 🧾 Authenticate the User
+Users connect via Sign-In With Ethereum (SIWE) or a wallet using Farcaster’s auth-kit, allowing CoinCast to identify the user and personalize their experience.
+
+2. 📊 Fetch Portfolio Data
+The API returns simulated portfolio data including balance, top holdings, and 24h price changes. The app is structured to easily support live data integrations in the future.
+
+3. 🖼️ Render Portfolio Card
+The portfolio is displayed in a stylized, frame-optimized card, showing key metrics and visuals using TailwindCSS and lucide-react. This appears directly inside the Farcaster feed.
+
+4. 📤 Share to Farcaster
+Users tap "Share Portfolio" to cast their snapshot. The Frame SDK handles this interaction and updates their cast with the preview image.
+
+
 
 ---
 ## 💹 Folder Structure
